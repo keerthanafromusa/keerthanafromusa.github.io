@@ -1,0 +1,85 @@
+.header{
+    
+    padding: 5px;
+    
+    height: 75px;
+    background-color: #43281c;
+    font-size: 28px;
+    color: #fbf2c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu{
+    border: 3px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 25px;
+    height: 300px;
+    width: 700px;
+    background-color: #eee1d5;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.item{
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    margin: 10px;
+}
+
+
+.divider{
+    height: 1px;
+    background-color: brown;
+}
+
+.order-name{
+    border: 3px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 25px;
+    height: 100px;
+    width: 700px;
+    background-color: #eee1d5;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment{
+    border: 3px ;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 25px;
+    height: 165px;
+    width: 700px;
+    background-color: #eee1d5;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-input { /*this is for the enter box thing*/
+    background-color: rgba(0,0,0,0);
+    border: 2px #885a2d solid;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 100px;
+    width: 98%;
+    font-size: 18px;
+  }
+
+.name-enter-box{
+    color: #885a2d;
+    font-size: 16px;
+    left: 25px;
+    top: -7px;
+    margin: 10px;
+}
