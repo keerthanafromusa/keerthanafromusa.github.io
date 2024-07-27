@@ -1,86 +1,92 @@
 /* All pages styles */
 
 body {
-    background-color: #b2a5e3;
+    background-color: #fffad7;
+    font-family: "Poppins";
 }
 
 h1{
-    font-family: "Shrikhand", serif;
+    font-family:"Rubik";
 }
 
 header{
     display: flex;
     flex-direction: row;
 }
+
+/* Nav Bar Styles */
+header{
+    background-color: #fff8c2;
+    display:flex;
+    flex-direction: row;
+}
+#logo{
+    width: 10%;
+    float: left;
+    margin-left: 2%;
+}
+
 nav {
-
-    position: absolute;
-    left: 62%;
-    z-index: 10; 
-    padding: 10px;
-    width: 30%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    vertical-align: center;
 }
 
-nav ul {
+nav a {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-}
-
-nav li{
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: 6%;
-    margin-left: 6%;
-    margin-top: 3%;
-    padding: 2%;
-    font-family: "Abril Fatface";
-
+    font-family: "Roboto";
+    border-radius: 20%;
+    padding: 3%;
+    font-family: "Poppins";
+    font-weight:bolder;
+    color: black;
+    font-size: 20px;
 }
 
 
-#navSVG {
-    position: absolute;
-    height: 100%;
-    left: 53%;
-    bottom: 50%;
-    display: block;
-    filter: drop-shadow(10px 10px 5px #4b176e80);
-    z-index: 1;
+/* Footer Styles */
 
+footer{
+    padding-top: 1%;
+    font-size: 20px;
+    background-color: #f4b87f;
+    text-align: center;
 }
 
+
+#avatar{
+    width: 10%;
+}
 /* Home Page styles */
-#heroSVG{
-    padding: 0;
-    margin: 0;
-    width: 55%;
-    top: 2%;
-    position: absolute;
-}
 
 #hero{
-    display: flex;
-    flex-direction: row;
-    width: 30%;
+    width: 1000px;
+    float: left;
+    height: 500px ;
+    margin-bottom: 10px;
+    display: block;
+    padding-right: 30px;
 }
-#welcome{
-    position: absolute;
-    top: 50%;
-    right: 63%;
-    z-index: 1;
-    font-size: 80px;
+
+#intro{
+    margin-top: 10%;
+}
+main{
+    padding: 20px;
+    overflow: hidden;
+    padding: 5%;
 }
 
 /* About Me Page styles */
+#flower{
 
-.main{
-    position: relative;
-    padding:5%;
-    margin-top: 15%;
-}
-.intro{
-    padding-top: 8%;
-
+    float: left;
+    height: 500px ;
+    margin-bottom: 10px;
+    display: block;
+    padding-right: 30px;
 }
